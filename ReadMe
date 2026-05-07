@@ -1,0 +1,145 @@
+# AI PDF Summarizer
+
+AI PDF Summarizer is a Flask-based web application that uses Ollama and the Phi3 AI model to generate intelligent summaries from PDF documents. Users can upload PDFs, select summary size and language, and download the generated summary as a PDF file.
+
+---
+
+# Features
+
+* Upload PDF documents
+* AI-generated summaries
+* Multiple summary sizes
+
+  * Little
+  * Medium
+  * Full
+* Multi-language support
+
+  * English
+  * Spanish
+  * French
+  * Arabic
+* Download summary as PDF
+* Modern responsive UI
+* Local AI processing using Ollama
+
+---
+
+# Technologies Used
+
+* Python
+* Flask
+* PyPDF2
+* Ollama
+* Phi3 AI Model
+* HTML
+* CSS
+* JavaScript
+* ReportLab
+
+---
+
+# Installation
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ai-pdf-summarizer.git
+cd ai-pdf-summarizer
+```
+
+---
+
+## 2. Install Required Packages
+
+```bash
+pip install flask PyPDF2 requests reportlab
+```
+
+---
+
+## 3. Install Ollama
+
+Download and install Ollama:
+
+* Windows / Mac / Linux:
+  https://ollama.com
+
+---
+
+## 4. Pull Phi3 Model
+
+```bash
+ollama pull phi3
+```
+
+---
+
+## 5. Run Ollama
+
+```bash
+ollama run phi3
+```
+
+Keep Ollama running in the background.
+
+---
+
+## 6. Run Flask Application
+
+```bash
+python app.py
+```
+
+---
+
+# Open in Browser
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+# Project Structure
+
+```text
+AI-PDF-Summarizer/
+├── app.py
+├── README.md
+
+```
+
+---
+
+# How It Works
+
+1. Upload a PDF file
+2. Extract text using PyPDF2
+3. Send text to Ollama Phi3 model
+4. Generate AI summary
+5. Display summary on webpage
+6. Download summary as PDF
+
+---
+
+# Future Improvements
+
+* Drag and drop upload
+* Dark/light mode
+* User authentication
+* Summary history
+* DOCX support
+* AI chat with PDF
+
+---
+
+# Author
+
+Developed by Abdifatah 
+
+---
+
+# License
+
+This project is open-source and free to use.
